@@ -148,7 +148,7 @@ All player-facing messages can be changed.
 
 ## Requirements
 
-- Paper 1.21+
+- Paper 1.21+, 26.2
 
 - Java 21
 
