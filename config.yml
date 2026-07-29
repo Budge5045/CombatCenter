@@ -1,0 +1,131 @@
+############################################################
+# CombatCenter
+############################################################
+
+#
+# PvP Settings
+#
+pvp:
+
+  # Default PvP status for players joining
+  # for the first time.
+  default-enabled: false
+
+  # Should a player's PvP status be saved?
+  #
+  # true  = Players keep their PvP status after
+  #         reconnecting or server restarts.
+  #
+  # false = PvP is reset to the default-enabled
+  #         setting whenever they join.
+  save-status: false
+
+
+#
+# Death Settings
+#
+death:
+
+  keep-inventory: true
+
+  keep-level: true
+
+  clear-drops: true
+
+  clear-exp: true
+
+  custom-death-message: true
+
+#
+# Combat History
+#
+combat-history:
+
+  page-size: 45
+
+#
+# Leaderboards
+#
+leaderboards:
+
+  page-size: 45
+
+#
+# Statistics
+#
+statistics:
+
+  track-damage: true
+
+  track-damage-taken: true
+
+  track-weapon-kills: true
+
+  track-totem-pops: true
+
+  track-killstreaks: true
+
+#
+# Killstreak Rewards
+#
+# Placeholders:
+#   %player%
+#   %streak%
+#
+# Sounds must use Bukkit Sound enum names.
+killstreak-rewards:
+
+  enabled: true
+
+  rewards:
+
+    3:
+      message: "&aYou reached a &e3&a kill streak!"
+      sound: ENTITY_PLAYER_LEVELUP
+      commands:
+        - "give %player% pumpkin_pie 1"
+
+    5:
+      message: "&6You reached a &e5&6 kill streak!"
+      broadcast: "&e%player% &6is on a &c%streak%&6 kill streak!"
+      sound: UI_TOAST_CHALLENGE_COMPLETE
+      commands:
+        - "eco give %player% 500"
+        - "give %player% golden_apple 1"
+
+    10:
+      message: "&cYou're unstoppable!"
+      broadcast: "&4%player% has reached a &c%streak% &4kill streak!"
+      sound: ENTITY_ENDER_DRAGON_GROWL
+      commands:
+        - "give %player% enchanted_golden_apple 1"
+
+#
+# Sounds
+#
+sounds:
+
+  enabled: true
+
+#
+# Database
+#
+database:
+
+  type: SQLITE
+
+  file: combatcenter.db
+
+  instant-save: true
+
+
+#
+# Debug
+#
+debug:
+
+  enabled: false
+
+  log-combat: false
+
+  log-database: false

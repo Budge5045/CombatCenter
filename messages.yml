@@ -1,0 +1,272 @@
+
+
+titles:
+  combat-center: "&#ff8c42&lCombat Center"
+  combat-profile: "&#ff8c42&lCombat Profile"
+  combat-history: "&#ff8c42&lCombat History"
+  leaderboards: "&#ff8c42&lLeaderboards"
+  top-kills: "&#ff5555&lTop Kills"
+  top-deaths: "&#ff5555&lTop Deaths"
+  top-killstreak: "&#ffaa00&lHighest Killstreak"
+  top-totems: "&#55aaff&lTop Totem Pops"
+  top-damage: "&#ff8844&lTop Damage"
+  top-kd: "&#55ff55&lTop K/D"
+
+general:
+  no-permission: "&#ff5555You do not have permission."
+  players-only: "&#ff5555Players only."
+  player-not-found: "&#ff5555Player not found."
+
+pvp:
+  enabled: "&#55ff55PvP Enabled"
+  disabled: "&#ff5555PvP Disabled"
+  already-enabled: "&#ffaa00PvP is already enabled."
+  already-disabled: "&#ffaa00PvP is already disabled."
+
+death:
+  message: "&#ff5555%victim% was slain by %killer% using %weapon%."
+  current-killstreak: "&#55ff55Current Killstreak: &#ffaa00%killstreak%"
+
+main-menu:
+  pvp-enabled:
+    material: LIME_DYE
+    name: "&#55ff55PvP Enabled"
+    lore:
+      - "&#aaaaaaClick to disable PvP."
+  pvp-disabled:
+    material: LIGHT_GRAY_DYE
+    name: "&#ff5555PvP Disabled"
+    lore:
+      - "&#aaaaaaClick to enable PvP."
+  profile:
+    material: PLAYER_HEAD
+    name: "&#55aaffCombat Profile"
+    lore:
+      - "&#aaaaaaView your combat statistics."
+  leaderboards:
+    material: GOLDEN_SWORD
+    name: "&#ffaa00Leaderboards"
+    lore:
+      - "&#aaaaaaView the top players."
+  history:
+    material: BOOK
+    name: "&#ff8844Combat History"
+    lore:
+      - "&#aaaaaaView your recent fights."
+
+combat:
+  must-enable-pvp: "&#ff5555You must enable PvP before attacking another player."
+  target-pvp-disabled: "&#ff5555That player has PvP disabled."
+
+profile:
+  kills:
+    material: DIAMOND_SWORD
+    name: "&#ff5555Kills"
+    lore: ["&#ffffff%kills%"]
+  deaths:
+    material: SKELETON_SKULL
+    name: "&#ff5555Deaths"
+    lore: ["&#ffffff%deaths%"]
+  kd:
+    material: NETHER_STAR
+    name: "&#55ff55K/D Ratio"
+    lore: ["&#ffffff%kd%"]
+  damage:
+    material: IRON_SWORD
+    name: "&#ff8844Damage Dealt"
+    lore: ["&#ffffff%damage%"]
+  damage-taken:
+    material: SHIELD
+    name: "&#55aaffDamage Taken"
+    lore: ["&#ffffff%damage_taken%"]
+  weapon:
+    material: DIAMOND_AXE
+    name: "&#ffaa00Most Used Weapon"
+    lore:
+      - "&#ffffff%weapon%"
+      - "&#aaaaaaKills: &#ffffff%kills%"
+  no-weapon:
+    material: BARRIER
+    name: "&#ff5555No Weapon Data"
+    lore:
+      - "&#aaaaaaNo weapon kills recorded."
+  killstreak:
+    material: BLAZE_POWDER
+    name: "&#ffaa00Highest Killstreak"
+    lore: ["&#ffffff%killstreak%"]
+  totems:
+    material: TOTEM_OF_UNDYING
+    name: "&#55aaffTotem Pops"
+    lore: ["&#ffffff%totems%"]
+  player-head:
+    name: "&#ff8c42%player%"
+    lore:
+      - "&#aaaaaaCombat Profile"
+
+leaderboards:
+  kills:
+    material: DIAMOND_SWORD
+    name: "&#ff5555Top Kills"
+    lore: ["&#aaaaaaView leaderboard"]
+  deaths:
+    material: SKELETON_SKULL
+    name: "&#ff5555Top Deaths"
+    lore: ["&#aaaaaaView leaderboard"]
+  killstreak:
+    material: BLAZE_POWDER
+    name: "&#ffaa00Highest Killstreak"
+    lore: ["&#aaaaaaView leaderboard"]
+  totems:
+    material: TOTEM_OF_UNDYING
+    name: "&#55aaffTotem Pops"
+    lore: ["&#aaaaaaView leaderboard"]
+  damage:
+    material: IRON_SWORD
+    name: "&#ff8844Damage Dealt"
+    lore: ["&#aaaaaaView leaderboard"]
+  kd:
+    material: NETHER_STAR
+    name: "&#55ff55Best K/D"
+    lore: ["&#aaaaaaView leaderboard"]
+  menu-info:
+    material: BOOK
+    name: "&#ff8c42Leaderboards"
+    lore:
+      - "&#aaaaaaChoose a category."
+  labels:
+    kills: "Kills"
+    deaths: "Deaths"
+    killstreak: "Killstreak"
+    totems: "Totem Pops"
+    damage: "Damage"
+    kd: "K/D"
+    value: "Value"
+  player:
+    name: "&#ff8c42%player%"
+    lore:
+      - "&#aaaaaaRank: &#ffffff#%rank%"
+      - "&#aaaaaa%label%: &#ffffff%value%"
+
+navigation:
+  back-main:
+    material: ARROW
+    name: "&#55aaff← Back"
+    lore:
+      - "&#aaaaaaReturn to Combat Center"
+
+  filler:
+    material: BLUE_STAINED_GLASS_PANE
+    name: " "
+    lore: []
+
+  back-profile:
+    material: ARROW
+    name: "&#55aaff← Back"
+    lore:
+      - "&#aaaaaaReturn to previous menu"
+
+  back-leaderboards:
+    material: ARROW
+    name: "&#55aaff← Back"
+    lore:
+      - "&#aaaaaaReturn to leaderboards"
+
+  next:
+    material: ARROW
+    name: "&#55ff55Next →"
+    lore:
+      - "&#aaaaaaNext page"
+
+  page:
+    material: PAPER
+    name: "&#ffaa00Page %page%/%max_pages%"
+    lore: []
+
+history:
+  empty:
+    material: BARRIER
+    name: "&#ffaa00No Combat History"
+    lore:
+      - "&#aaaaaaYou haven't fought anyone yet."
+
+  kill:
+    name: "&#55ff55Killed &#ffffff%player%"
+    lore:
+      - ""
+      - "&#aaaaaaWeapon: &#ffffff%weapon%"
+      - "&#aaaaaaDamage Dealt: &#55ff55%damage_dealt%"
+      - "&#aaaaaaDamage Taken: &#ff5555%damage_taken%"
+      - "&#aaaaaaKillstreak: &#ffaa00%killstreak%"
+      - "&#aaaaaaWhen: &#ffffff%time%"
+
+  death:
+    name: "&#ff5555Killed by &#ffffff%player%"
+    lore:
+      - ""
+      - "&#aaaaaaWeapon: &#ffffff%weapon%"
+      - "&#aaaaaaDamage Dealt: &#55ff55%damage_dealt%"
+      - "&#aaaaaaDamage Taken: &#ff5555%damage_taken%"
+      - "&#aaaaaaKillstreak Before Death: &#ffaa00%killstreak%"
+      - "&#aaaaaaWhen: &#ffffff%time%"
+
+  time:
+    just-now: "Just now"
+    minute: "%time% minute ago"
+    minutes: "%time% minutes ago"
+    hour: "%time% hour ago"
+    hours: "%time% hours ago"
+    day: "%time% day ago"
+    days: "%time% days ago"
+    week: "%time% week ago"
+    weeks: "%time% weeks ago"
+    month: "%time% month ago"
+    months: "%time% months ago"
+    year: "%time% year ago"
+    years: "%time% years ago"
+
+commands:
+  reload: "&#55ff55CombatCenter reloaded."
+  history-usage: "&#aaaaaa/history <player> [page]"
+  invalid-page: "&#ff5555Invalid page."
+  no-stats: "&#ff5555No stats found."
+  current-streak: "&#55ff55Your current killstreak is &#ffaa00%streak%&#55ff55."
+  resetstats-success: "&#55ff55Successfully reset all combat stats and history for &#ffaa00%player%&#55ff55."
+  forcetoggle-enabled: "&#55ff55PvP has been force enabled for &#ffaa00%player%&#55ff55."
+  forcetoggle-disabled: "&#ff5555PvP has been force disabled for &#ffaa00%player%&#ff5555."
+  forcetoggle-enabled-target: "&#55ff55An administrator has enabled your PvP."
+  forcetoggle-disabled-target: "&#ff5555An administrator has disabled your PvP."
+  resetstats-usage: "&#aaaaaa/pvp resetstats <player>"
+  clearhistory-usage: "&#aaaaaa/pvp clearhistory <player>"
+  forcetoggle-usage: "&#aaaaaa/pvp forcetoggle <player> <on|off>"
+  clearhistory-success: "&#55ff55Successfully cleared the combat history for &#ffaa00%player%&#55ff55."
+
+help:
+  player:
+    - "&8&m--------------------------------------------------"
+    - "&#ff8c42&lCombatCenter Commands"
+    - ""
+    - "&e/pvp &7- Open the Combat Center"
+    - "&e/pvp on &7- Enable PvP"
+    - "&e/pvp off &7- Disable PvP"
+    - "&e/pvp stats &7- View your combat profile"
+    - "&e/pvp history [page] &7- View your combat history"
+    - "&e/pvp streak &7- View your current killstreak"
+    - "&8&m--------------------------------------------------"
+
+  admin:
+    - "&8&m--------------------------------------------------"
+    - "&#ff5555&lCombatCenter Admin Commands"
+    - ""
+    - "&e/pvp &7- Open the Combat Center"
+    - "&e/pvp on &7- Enable PvP"
+    - "&e/pvp off &7- Disable PvP"
+    - "&e/pvp stats [player] &7- View any player's stats"
+    - "&e/pvp history [page] &7- View your combat history"
+    - "&e/pvp streak &7- View your current killstreak"
+    - ""
+    - "&cAdmin:"
+    - "&e/pvp reload"
+    - "&e/pvp resetstats <player>"
+    - "&e/pvp clearhistory <player>"
+    - "&e/pvp forcetoggle <player> <on|off>"
+    - "&8&m--------------------------------------------------"

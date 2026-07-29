@@ -1,0 +1,12 @@
+name: CombatCenter
+version: '1.0.0'
+main: com.budge5045.combatcenter.CombatCenter
+api-version: '1.21'
+
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  pvp:
+    description: Opens the Combat Center
+    usage: /pvp
